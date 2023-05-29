@@ -1,0 +1,197 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #e9e3e3;
+}
+
+
+h1 {
+  display: block;
+  text-align: center;
+  padding: 0px;
+  margin: 0px 0px 20px 0px;
+  color: #b50965;
+  font-family: 'Pacifico', cursive;
+  font-size: 36px;
+}
+
+form {
+  background-color: #ffffff;
+  max-width: 50%;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px #00000033;
+}
+
+
+section {
+  background-color: white;
+  min-height: 20px;
+  max-width: 50%;
+  margin: 3% auto;
+  text-align: center;
+  padding: 5% auto;
+  border: 2px solid #e394a2;
+}
+
+h2 {
+  color: #e394a2;
+  background-color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+
+input {
+  margin: 25px 5px;
+  border: 2px solid #e394a2;
+  font-size: 24px;
+  font-weight: 700;
+  color: #b50965;
+  border-radius: 3px;
+  padding: 6px 6px 6px 6px;
+}
+
+
+.wrd-field {
+  background-color: white;
+
+}
+
+.wrd-field>input {
+  background-color: #e9e3e349;
+}
+
+.btn-field {
+  background-color: white;
+  text-align: center;
+}
+
+.btn-field>input {
+  box-shadow: 5px 5px 5px #00000033;
+}
+
+
+label {
+  font-size: 28px;
+  color: #b50965;
+  font-weight: 500;
+  padding-left: 2%;
+  background-color: white;
+}
+
+
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  /* Add a search icon to input */
+  background-position: 10px 12px;
+  /* Position the search icon */
+  background-repeat: no-repeat;
+  /* Do not repeat the icon image */
+  width: 100%;
+  /* Full-width */
+  font-size: 16px;
+  /* Increase font-size */
+  padding: 12px 20px 12px 40px;
+  /* Add some padding */
+  border: 1px solid #ddd;
+  /* Add a grey border */
+  margin-bottom: 12px;
+  /* Add some space below the input */
+}
+
+/* #myUL  */
+
+#even,
+#odd {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* #myUL li a */
+
+#even li,
+#odd li {
+  border: 1px solid #DDDDDD;
+  /* Add a border to all links */
+  margin-top: -1px;
+  /* Prevent double borders */
+  background-color: #f6f6f6;
+  /* Grey background color */
+  padding: 12px;
+  /* Add some padding */
+  text-decoration: none;
+  /* Remove default text underline */
+  font-size: 18px;
+  /* Increase the font-size */
+  color: #2a2a2a;
+  /* Add a black text color */
+  display: block;
+  /* Make it into a block element to fill the whole list */
+}
+
+/* #myUL li a:hover:not(.header) */
+
+#even li a:hover:not(.header) {
+  background-color: #eee;
+  /* Add a hover effect to all links, except for headers */
+}
+
+#odd li a:hover:not(.header) {
+  background-color: #eee;
+  /* Add a hover effect to all links, except for headers */
+}
+
+#image-container {
+  margin: 1% auto;
+  text-align: center;
+  padding: 5% auto;
+}
+
+#image-container>img {
+  object-fit: contain;
+  object-position: 50% 50%;
+  width: 250px;
+}
+
+p {
+  background-color: #088944;
+  min-height: 20px;
+  max-width: 30%;
+  margin: 1% auto;
+  text-align: center;
+  padding: 5% auto;
+  border: 1px solid #29c27b;
+}
+
+li {
+  border: solid 1px #299D8F;
+}
+
+.wrd-field>input {
+  width: 77%;
+}
+
+@media (max-width: 979px) {
+
+  .wrd-field>input {
+    width: 67%;
+    margin-right: 5px
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  form,
+  section {
+    max-width: 95%;
+  }
+
+
+}
