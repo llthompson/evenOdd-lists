@@ -20,7 +20,7 @@ h1 {
 form {
   background-color: #ffffff;
   max-width: 50%;
-  margin: 50px auto;
+  margin: 50px auto 15px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px #00000033;
 }
@@ -30,7 +30,7 @@ section {
   background-color: white;
   min-height: 90px;
   max-width: 50%;
-  margin: 3% auto;
+  margin: 1% auto;
   text-align: center;
   padding: 5% auto;
   box-shadow: 5px 5px 10px #00000033;
