@@ -22,25 +22,27 @@ form {
   max-width: 50%;
   margin: 50px auto;
   border-radius: 10px;
-  box-shadow: 10px 10px 20px #00000033;
+  box-shadow: 5px 5px 10px #00000033;
 }
 
 
 section {
   background-color: white;
-  min-height: 20px;
+  min-height: 90px;
   max-width: 50%;
   margin: 3% auto;
   text-align: center;
   padding: 5% auto;
-  border: 2px solid #e394a2;
+  box-shadow: 5px 5px 10px #00000033;
+  /* border: 2px solid #e394a2; */
 }
 
 h2 {
-  color: #e394a2;
+  color: #b50965;
   background-color: white;
   font-size: 28px;
   font-weight: 700;
+  padding-top: 25px;
 }
 
 
@@ -71,6 +73,7 @@ input {
 
 .btn-field>input {
   box-shadow: 5px 5px 5px #00000033;
+  border-style: none;
 }
 
 
@@ -86,65 +89,44 @@ label {
 
 #myInput {
   background-image: url('/css/searchicon.png');
-  /* Add a search icon to input */
   background-position: 10px 12px;
-  /* Position the search icon */
   background-repeat: no-repeat;
-  /* Do not repeat the icon image */
   width: 100%;
-  /* Full-width */
   font-size: 16px;
-  /* Increase font-size */
   padding: 12px 20px 12px 40px;
-  /* Add some padding */
   border: 1px solid #ddd;
-  /* Add a grey border */
   margin-bottom: 12px;
-  /* Add some space below the input */
 }
 
 /* #myUL  */
 
 #even,
 #odd {
-  /* Remove default list styling */
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-/* #myUL li a */
 
 #even li,
 #odd li {
   border: 1px solid #DDDDDD;
-  /* Add a border to all links */
   margin-top: -1px;
-  /* Prevent double borders */
   background-color: #f6f6f6;
-  /* Grey background color */
   padding: 12px;
-  /* Add some padding */
   text-decoration: none;
-  /* Remove default text underline */
   font-size: 18px;
-  /* Increase the font-size */
   color: #2a2a2a;
-  /* Add a black text color */
   display: block;
-  /* Make it into a block element to fill the whole list */
 }
 
-/* #myUL li a:hover:not(.header) */
 
 #even li a:hover:not(.header) {
   background-color: #eee;
-  /* Add a hover effect to all links, except for headers */
 }
 
 #odd li a:hover:not(.header) {
   background-color: #eee;
-  /* Add a hover effect to all links, except for headers */
 }
 
 #image-container {
